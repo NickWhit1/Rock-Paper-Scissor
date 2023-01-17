@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(120, 2, 2);
+  align-items: center;
+  background-image: url(images/rpc.webp);
+  background-repeat: no-repeat; /* don't repeat the image */
+  background-size: cover;
+
+}
+
+.RPC {
+  display: flex;
+  font-weight: 900;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  #choices div {
+    width: 30%;
+    text-align: center;
+    color: rgb(213, 227, 227);
+    padding: 40px;
+    border: 1px solid rgb(77, 14, 14);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(117, 124, 102);
+  }
+  
+  #result {
+    color: rgb(209, 198, 198);
+    margin-top: 20px;
+    margin-bottom: 10rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  .animate__animated{
+    color: rgb(170, 6, 6);
+    font-size: xx-large;
+    min-height: 150px;
+    }
+
+    @media screen and (min-width: 359px) {
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+      }
