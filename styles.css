@@ -4,24 +4,28 @@ body {
   background-image: url(images/rpc.webp);
   background-repeat: no-repeat; /* don't repeat the image */
   background-size: cover;
+  
 
 }
 
 .RPC {
   display: flex;
   font-weight: 900;
+  
 }
 
 #game {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   
   #choices {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    color: black;
   }
   
   #choices div {
@@ -32,15 +36,16 @@ body {
     border: 1px solid rgb(77, 14, 14);
     border-radius: 5px;
     cursor: pointer;
-    background-color: rgb(117, 124, 102);
+    background-color: rgb(53, 5, 5);
   }
   
   #result {
-    color: rgb(209, 198, 198);
+    color: rgb(0, 0, 0);
     margin-top: 20px;
-    margin-bottom: 10rem;
+    margin-bottom: 20rem;
     font-size: 24px;
     font-weight: bold;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 0.5px rgb(48, 1, 1), 0.5px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
   }
   
   .my-element {
@@ -51,9 +56,10 @@ body {
     animation-duration: 2s; /* don't forget to set a duration! */
   }
   .animate__animated{
-    color: rgb(170, 6, 6);
+    color: rgb(121, 7, 7);
     font-size: xx-large;
     min-height: 150px;
+    text-shadow: 2.5px 2.5px 2.5px rgb(0, 0, 0);
     }
 
     @media screen and (min-width: 359px) {
