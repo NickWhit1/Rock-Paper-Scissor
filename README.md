@@ -1,0 +1,15 @@
+# Rock-Paper-Scissor
+
+This project is a simple web-based implementation of the classic game Rock Paper Scissors. It consists of an HTML file, a CSS file, and a JavaScript file.
+
+How to Play
+To play the game, simply open the HTML file https://rock-paper-scissor-war.netlify.app/ in your web browser. You will see three buttons labeled "Rock", "Paper", and "Scissors". Click on one of these buttons to make your choice. The computer will then randomly choose one of the three options as well. The result of the game will be displayed on the screen.
+
+Technologies Used
+HTML
+CSS
+JavaScript
+animate.css
+
+License
+This project is licensed under the MIT License. Feel free to use it for any purpose.
