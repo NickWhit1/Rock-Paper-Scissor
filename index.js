@@ -16,8 +16,8 @@ function play(userChoice) {
     if (user === computer) {
       return 'tie';
     } else if (user === 'rock' && computer === 'scissors' ||
-               user === 'paper' && computer === 'rock' ||
-               user === 'scissors' && computer === 'paper') {
+        user === 'paper' && computer === 'rock' ||
+        user === 'scissors' && computer === 'paper') {
       return 'win';
     } else {
       return 'lose';

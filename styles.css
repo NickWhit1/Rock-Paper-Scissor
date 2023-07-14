@@ -11,7 +11,7 @@ body {
 .RPC {
   display: flex;
   font-weight: 900;
-  
+  text-shadow: 1px 1px #500101
 }
 
 #game {
