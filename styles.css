@@ -2,8 +2,10 @@ body {
   background-color: rgb(120, 2, 2);
   align-items: center;
   background-image: url(images/rpc.webp);
+  background-position: center center;
   background-repeat: no-repeat; /* don't repeat the image */
   background-size: cover;
+  border:  10px solid rgb(46, 1, 1);
   
 
 }
@@ -41,8 +43,9 @@ body {
   
   #result {
     color: rgb(0, 0, 0);
-    margin-top: 20px;
-    margin-bottom: 20rem;
+    margin-top: 10px;
+    margin-bottom: 13rem;
+    font-style: italic;
     font-size: 24px;
     font-weight: bold;
     text-shadow: -1px 0 rgb(255, 255, 255), 0 0.5px rgb(48, 1, 1), 0.5px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
